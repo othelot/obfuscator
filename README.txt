@@ -21,6 +21,6 @@ suggestions.
 ```
 mkdir build
 cd build
-cmake -DCMAKE_BUILD_TYPE=Release -DLLVM_INCLUDE_TESTS=OFF ..
+CC=gcc-11 CXX=g++-11 cmake -DCMAKE_BUILD_TYPE=Release -DLLVM_INCLUDE_TESTS=OFF ..
 make -j8
 ```

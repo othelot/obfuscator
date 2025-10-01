@@ -14,6 +14,8 @@
 #ifndef LLVM_TOOLS_LLVM_XRAY_XRAY_SLEDS_H
 #define LLVM_TOOLS_LLVM_XRAY_XRAY_SLEDS_H
 
+#include <stdint.h>
+
 namespace llvm {
 namespace xray {
 
