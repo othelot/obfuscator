@@ -15,3 +15,12 @@ documentation setup.
 
 If you are writing a package for LLVM, see docs/Packaging.rst for our
 suggestions.
+
+
+# Build
+```
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DLLVM_INCLUDE_TESTS=OFF ..
+make -j8
+```
